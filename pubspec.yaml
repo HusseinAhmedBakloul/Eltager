@@ -1,0 +1,60 @@
+name: eltager
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  firebase_messaging: ^15.1.3
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  intl: ^0.19.0
+  timezone: ^0.9.4
+  googleapis: ^13.2.0
+  awesome_notifications: ^0.10.0
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
+flutter_launcher_icons:
+    android: true
+    ios: true
+    remove_alpha_ios: true
+    image_path: "Images/agricultural-man-with-baskets-full-veggies_52683-22992-removebg-preview.png"  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - Images/agricultural-man-with-baskets-full-veggies_52683-22992-removebg-preview.png
+    - Images/cereals-set_1284-21149.jpg
+    - Images/bunch-wheat-stalks-field-transparent-background_1232542-15969-removebg-preview-removebg-preview.png
+    - Images/close-up-paddy-rice-ears-isolated-transparent-background_1266257-14482-removebg-preview.png
+    - Images/dry-basmati-rice-wooden-bowl-isolated-transparent-background_84443-13263-removebg-preview.png
+    - Images/breaking-bread_23-2147989506-removebg-preview.png
+    - Images/images-removebg-preview.png
+    - Images/tbl_articles_article_21046_70037bf3c04-be05-445e-ba87-c2381dc5f178-780x470.jpg
+    - Images/porridge-oats-oat-flour-isolated-transparent-background_617816-18830-removebg-preview.png
+    - Images/de4bf637-9bd9-42eb-8f3f-d146161a3e52-1000x1000-I9BFvHtrD0pk6M0JkZK1u0PUMmAw29mQniFF7bxz.jpg
+    - Images/fresh-raw-corn-white-background_1262102-5260-removebg-preview.png
+    - Images/corn-isolated_74190-1593-removebg-preview.png
+    - Images/agricultural-man-with-baskets-full-veggies_52683-22992-removebg-preview.png
+
+  
+
+  fonts:
+    - family: Amiri
+      fonts:
+        - asset: Fonts/Amiri-Bold.ttf
+    - family: AmiriQuran
+      fonts:
+        - asset: Fonts/AmiriQuran-Regular.ttf

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "600000852585",
+    "project_id": "eltager-4ccfc",
+    "storage_bucket": "eltager-4ccfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600000852585:android:ffab43932279052d1fe8f8",
+        "android_client_info": {
+          "package_name": "com.example.eltager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxx9D2IKDbMKgJMM1feE94rCbsDbc5g0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
